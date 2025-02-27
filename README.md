@@ -14,7 +14,12 @@ This repository contains my configuration files for various applications.
 ## Usage
 
 1. Clone this repository to your home directory.
-2. Symlink the `.zshrc` file to your home directory:
+2. Remove .git folder and rename this folder.
+   ```sh
+   rm -rf ./config/.git
+   mv .config-mac .config
+   ```
+3. Symlink the `.zshrc` file to your home directory:
    ```sh
    ln -s ~/.config/zsh/zshrc ~/.zshrc
    ```
